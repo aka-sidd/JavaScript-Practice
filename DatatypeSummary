@@ -1,0 +1,38 @@
+// there are basically 3 types of datatypes in java
+// 1. primitive datatypes
+// 2. reference datatypes
+// 3. void datatype
+// primitive datatypes
+// # String: represents a sequence of characters, enclosed in single or double quotes. Example: "Hello, World!"
+// # Number: represents both integer and floating-point numbers. Example: 42, 3.14
+// # Boolean: represents a logical value that can be either true or false. Example: true, false
+// # Null: represents the intentional absence of any object value. It is a primitive value that represents the null or "empty" value. Example: null
+// # Undefined: represents a variable that has been declared but has not been assigned a value. It is a primitive value that indicates the absence of a value. Example: undefined
+// # Symbol: represents a unique identifier. It is a primitive value that is often used to create unique property keys for objects. Example: Symbol('description')
+const score = 100;
+const ScoreValue = 100.3;
+const isLoggedIn = true;
+const userName = "Siddharth";
+const userAge = null;
+let userEmail; // undefined
+const OutSideTemp = null;
+const id = Symbol("123");
+const anotherId = Symbol("123");
+console.log(id === anotherId); // false, because each Symbol is unique, even if they have the same description
+const bigIntValue = 1234567890123456789012345678901234567890n; // BigInt literal
+// reference datatypes
+// # Object: represents a collection of key-value pairs. It can contain properties and methods. Example: { name: "John", age: 30 }
+// # Array: represents an ordered list of values. It is a special type of object that allows you to store multiple values in a single variable. Example: [1, 2, 3, 4, 5]
+const heroes = ["Superman", "Batman", "Siddharth"];
+const person = {
+  name: "Siddharth",
+  age: 25
+};
+// # Function: represents a reusable block of code that performs a specific task. It can be defined using the function keyword or as an arrow function. Example: function greet() { console.log("Hello!"); }
+// void datatype
+//Function declare
+const myFunction = function() {
+  console.log("Hello, World!");
+}
+// # Void: represents the absence of a value. It is used to indicate that a function does not return any value. Example: function logMessage(message) { console.log(message); }
+// In JavaScript, there are also some special values that are considered primitive datatypes, such as NaN (Not-a-Number) and Infinity. These values are used to represent specific condi.tions in mathematical operations and comparisons.
