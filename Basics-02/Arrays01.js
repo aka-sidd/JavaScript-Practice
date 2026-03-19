@@ -32,13 +32,30 @@ const myArr2 = new Array(1,2,3,4);
 
 //slice, splice
 
-console.log("A",myArr);
-const myn1 = myArr.slice(1,3);
-console.log(myn1);
-console.log("B",myArr);
-const myn2 = myArr.splice(1,3);
-console.log(myn1);
-console.log(myn2);
+// console.log("A",myArr);
+// const myn1 = myArr.slice(1,3);
+// console.log(myn1);
+// console.log("B",myArr);
+// const myn2 = myArr.splice(1,3);
+// console.log(myn1);
+// console.log(myn2);
 
 
+//Length Property(V.Important)
+let arr = [1,2,3];
+console.log(arr.length); // 3 
+console.log(typeof arr);
+arr.length = 1;
+console.log(arr); //[1]
+//It truncates the array
+arr.length = 5;
+console.log(arr); //It extends with empty slots
 
+// let arr2  = ["a","b","c"];
+// console.log(arr2[0]); // a 
+// console.log(arr2["0"]); // a
+
+// let Arr = [];
+// Arr[0] = "A";
+// Arr[5] = "F";
+// console.log(Arr);
