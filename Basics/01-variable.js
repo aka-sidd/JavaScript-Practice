@@ -15,6 +15,8 @@ console.log(mynumber);
 // const :-> inside declare any stuff cannot be change
 const pi = 3.14159;
 console.log(pi);
+
+
 // pi = 5;    
 // console.log(pi);
 // the above two lines cannot be changes because its value is fixed...

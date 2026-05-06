@@ -9,3 +9,7 @@ console.log("Siddharth")
 // symbol => unique identifier
 console.log(typeof "Siddharth")
 console.log(typeof 3)
+console.log(typeof null);
+console.log(typeof undefined);
+
+

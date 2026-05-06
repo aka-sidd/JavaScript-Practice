@@ -1,0 +1,21 @@
+{
+  "name": "javascript-practice",
+  "version": "1.0.0",
+  "description": "JavaScript fundamentals , logic building , and backend-oriented practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aka-sidd/JavaScript-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aka-sidd/JavaScript-Practice/issues"
+  },
+  "homepage": "https://github.com/aka-sidd/JavaScript-Practice#readme"
+}
