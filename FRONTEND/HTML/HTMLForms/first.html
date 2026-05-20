@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+</head>
+<body>
+    <h1>University Registration Form</h1>
+    <p>Please fill out the form below to register:</p>
+    <hr>
+    <form>
+        <h2>Personal Information</h2>
+        <label for="FirstName">First Name:</label>
+        <input type="text" id="FirstName" name="FirstName" id = "fname" placeholder="e.g:Arun" required>
+        <br><br>
+        <label for="LastName">Last Name:</label>
+        <input type="text" id="LastName" name="LastName" id = "lname" placeholder="e.g:Kumar" required>
+        <br><br>
+        <label for="DOB">Date of Birth:</label>
+        <input type="date" id="DOB" name="DOB">
+        <br><br>
+        <h3>Gender</h3>
+        <label for="male">Male</label>
+        <input type="radio" name = "gender" value="male" id="male" required>
+        <br><br>
+        <label for="female">Female</label>
+        <input type="radio" name = "gender" value="female" id="female" required>
+        <br><br>
+        <label for="other">Other</label>
+        <input type="radio" name = "gender" value="other" id="other" required>    
+        <br><br>
+
+        <h3>Upload your Photos</h3>
+        <input type="file" name = "file" accept = "image/*">
+        <hr>
+        <h2>Contact Information</h2>
+        <label for="email">Email Address:</label>
+        <input type="email" name = "email" id="email" placeholder="e.g:arun.kumar@example.com" required>
+        <br><br>
+        <label for="phone no.">Phone Number:</label>
+        <input type="tel" name = "phone" id = "phone" placeholder="123-456-789" required> 
+        <br><br>
+        <label for="address">Address:</label>
+        <br>
+        <textarea name="Address" id="Address" rows = 10 cols = 10 required></textarea>
+        <hr>
+
+        <h2>Academic Information</h2>
+        <label for="course">Select your Course</label>
+        <select name="course" id="course">
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="ME">ME</option>
+        </select>
+        <br>
+        <h3>Extracurricular Activities</h3>
+
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="sports" value = "sports">
+        <br><br>
+         <label for="music">Music</label>
+        <input type="checkbox" id="music" value = "music">
+         <br><br>
+         <label for="arts">Arts</label>
+        <input type="checkbox" id="arts" value = "arts">
+        <br><br>
+         <label for="volunteer">Volunteer Work</label>
+        <input type="checkbox" id="volunteer" value = "volunteer">
+         <br><br>
+         <label for="research">Research</label>
+        <input type="checkbox" id="research" value = "research">
+         <br><br>
+         <label for="clubs">Clubs</label>
+        <input type="checkbox" id="clubs" value = "clubs">
+         <br><br>
+         <label for="internships">Internships</label>
+        <input type="checkbox" id="internships" value = "internships">
+        <br><br>
+        <hr>
+        <h2>Create Your Account</h2>
+        <label for="password">Create Password:</label>
+        <input type = "password" name = "password" id = "password" placeholder="Enter your password">
+        <br><br>
+        <label for="confirm_password">Confirm Password:</label>
+        <input type = "password" name = "confirm_password" id = "confirm_password" placeholder="Re-enter your password">
+        <br><br>
+        <label for="security">Security Question:</label>
+        <select name = "security" id = "security">
+            <option value="Dog">What is your pet's name?</option>
+            <option value="Red">What is your favorite color?</option>
+            <option value="Pizza">What is your favorite food?</option>
+        </select>
+        <br><br>
+        <label for="security_answer">Security Answer:</label>
+        <input type = "text" name = "security_answer" id = "security_answer" placeholder="Enter your answer">
+        <br><br>
+         <hr>
+         <button type="submit">Register</button>
+         <button type="reset">Clear Form</button>
+    </form>
+</body>
+</html>
